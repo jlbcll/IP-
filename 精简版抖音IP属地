@@ -1,0 +1,13 @@
+#抖音IP属地分流
+DOMAIN-SUFFIX,dig.zjurl.cn,REJECT
+DOMAIN-SUFFIX,dig.bdurl.net,REJECT
+DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
+DOMAIN-SUFFIX,mcs.snssdk.com,REJECT
+host-wildcard, api*-normal-lq.amemv.com, IP属地
+host-wildcard, api*-core-lq.amemv.com, IP属地
+# 小红书的ip接口
+host-suffix, edith.xiaohongshu.com, IP属地
+# 小黑盒的ip接口
+DOMAIN, api.xiaoheihe.cn, IP属地
+# 掌盟的ip接口
+host, mlol.qt.qq.com, IP属地
