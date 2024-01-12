@@ -4,8 +4,6 @@ DOMAIN-SUFFIX,dig.bdurl.net,REJECT
 host-suffix, byteimg.com, reject
 host-suffix, api.amemv.com, reject
 host-suffix, api-play.amemv.com, reject
-host-suffix, ecombdapi.com, reject
-host-suffix, zijieapi.com, reject
 host-suffix, bytegecko.com, reject
 host-suffix, bytedance.com, reject
 host-suffix, zjcdn.com, reject
@@ -15,6 +13,8 @@ DOMAIN-KEYWORD, normal-c-lq, IP属地
 DOMAIN-KEYWORD, normal-lq, IP属地
 DOMAIN-KEYWORD, search-quic-lq, IP属地
 DOMAIN-KEYWORD, search-lq, IP属地
+host-suffix, ecombdapi.com, reject
+host-suffix, zijieapi.com, reject
 DOMAIN-KEYWORD, -normal-hl, IP属地
 DOMAIN-KEYWORD, -normal-c-hl, IP属地
 DOMAIN-KEYWORD, -core-c-hl, IP属地
