@@ -1,13 +1,13 @@
 #抖音IP属地分流
 DOMAIN-SUFFIX,dig.zjurl.cn,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
+DOMAIN-KEYWORD, zijieapi.com, IP属地
 DOMAIN-KEYWORD, core-c-lq, IP属地
 DOMAIN-KEYWORD, core-lq, IP属地
 DOMAIN-KEYWORD, normal-c-lq, IP属地
 DOMAIN-KEYWORD, normal-lq, IP属地
 DOMAIN-KEYWORD, search-quic-lq, IP属地
 DOMAIN-KEYWORD, search-lq, IP属地
-DOMAIN-SUFFIX, zijieapi.com,DIRECT
 DOMAIN-SUFFIX, ecombdapi.com,DIRECT
 DOMAIN-KEYWORD, -normal-hl, IP属地
 DOMAIN-KEYWORD, -normal-c-hl, IP属地
