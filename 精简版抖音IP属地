@@ -13,8 +13,8 @@ DOMAIN-KEYWORD, normal-c-lq, IP属地
 DOMAIN-KEYWORD, normal-lq, IP属地
 DOMAIN-KEYWORD, search-quic-lq, IP属地
 DOMAIN-KEYWORD, search-lq, IP属地
-host-suffix, ecombdapi.com, reject
-host-suffix, zijieapi.com, reject
+host-suffix, ecombdapi.com, DIRECT
+host-suffix, zijieapi.com, DIRECT
 DOMAIN-KEYWORD, -normal-hl, IP属地
 DOMAIN-KEYWORD, -normal-c-hl, IP属地
 DOMAIN-KEYWORD, -core-c-hl, IP属地
