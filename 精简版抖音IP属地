@@ -21,7 +21,6 @@ DOMAIN-KEYWORD, -core-c-hl, IP属地
 DOMAIN-KEYWORD, -normal-lf, IP属地
 DOMAIN-KEYWORD, -normal-c-lf, IP属地
 DOMAIN-KEYWORD, -core-c-lf, IP属地
-DOMAIN-suffix, amemv.com, reject
 # 小红书的ip接口
 host-suffix, edith.xiaohongshu.com, IP属地
 # 小黑盒的ip接口
