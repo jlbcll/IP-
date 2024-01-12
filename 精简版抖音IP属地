@@ -1,11 +1,20 @@
 #抖音IP属地分流
 DOMAIN-SUFFIX,dig.zjurl.cn,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
-host-keyword, zijieapi.com, reject
-host-keyword, ecombdapi.com, reject
-host-keyword, amemv.com, IP属地
-host-wildcard, api*-normal-lq.amemv.com, IP属地
-host-wildcard, api*-core-lq.amemv.com, IP属地
+DOMAIN-KEYWORD, core-c-lq, IP属地
+DOMAIN-KEYWORD, core-lq, IP属地
+DOMAIN-KEYWORD, normal-c-lq, IP属地
+DOMAIN-KEYWORD, normal-lq, IP属地
+DOMAIN-KEYWORD, search-quic-lq, IP属地
+DOMAIN-KEYWORD, search-lq, IP属地
+DOMAIN-SUFFIX, zijieapi.com,DIRECT
+DOMAIN-SUFFIX, ecombdapi.com,DIRECT
+DOMAIN-KEYWORD, -normal-hl, IP属地
+DOMAIN-KEYWORD, -normal-c-hl, IP属地
+DOMAIN-KEYWORD, -core-c-hl, IP属地
+DOMAIN-KEYWORD, -normal-lf, IP属地
+DOMAIN-KEYWORD, -normal-c-lf, IP属地
+DOMAIN-KEYWORD, -core-c-lf, IP属地
 # 小红书的ip接口
 host-suffix, edith.xiaohongshu.com, IP属地
 # 小黑盒的ip接口
