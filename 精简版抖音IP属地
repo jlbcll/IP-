@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,dig.zjurl.cn,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
 host-keyword, zijieapi.com, reject
 host-keyword, ecombdapi.com, reject
+host-keyword, amemv.com, IP属地
 host-wildcard, api*-normal-lq.amemv.com, IP属地
 host-wildcard, api*-core-lq.amemv.com, IP属地
 # 小红书的ip接口
