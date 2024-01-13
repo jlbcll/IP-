@@ -1,9 +1,6 @@
 #抖音IP属地分流
 DOMAIN-SUFFIX,dig.zjurl.cn,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
-host-suffix, api.amemv.com, reject
-host-suffix, api-play.amemv.com, reject
-host-suffix, zjcdn.com, reject
 DOMAIN-KEYWORD, core-c-lq, IP属地
 DOMAIN-KEYWORD, core-lq, IP属地
 DOMAIN-KEYWORD, normal-c-lq, IP属地
